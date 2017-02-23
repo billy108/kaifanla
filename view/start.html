@@ -1,0 +1,11 @@
+
+<div class="container" id="startPage">
+    <h1 class="text-center text-success">{{title}}</h1>
+    <img src="{{titleImg}}" class="img-responsive center-block"/>
+    {{jump('/main')}}
+</div>
+<script>
+    var parentHeight = $(window).height();
+    var selfHeight = $("#startPage").height();
+    $('#startPage').css({marginTop: (parentHeight - selfHeight)/2});
+</script>
