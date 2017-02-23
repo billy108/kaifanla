@@ -5,4 +5,4 @@
 实现技术： 	jQuery + Bootstrap + AngularJS
 适配平台：	PC + 移动端
 
-连接数据库   文件是dish.excel
+连接数据库   文件是kaifanla.sql
